@@ -4,7 +4,8 @@ function myFunction() {
     if (person == null || person == "") {
       text = "NOOOO.";
     } else {
-        text = ""
+        text = <script type="application/lua"></script>
     }
-    document.getElementById("demo").innerHTML = (table.concat({text}));
+    document.getElementById("demo").innerHTML = text;
   }
+  
