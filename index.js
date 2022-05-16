@@ -6,5 +6,5 @@ function myFunction() {
     } else {
         text = ""
     }
-    document.getElementById("demo").innerHTML = (table.concat(text));
+    document.getElementById("demo").innerHTML = (table.concat({text}));
   }
