@@ -4,7 +4,7 @@ function myFunction() {
     if (person == null || person == "") {
       text = "NOOOO.";
     } else {
-        text = <script type="application/lua"></script>
+      <script type="application/lua"></script>
     }
     document.getElementById("demo").innerHTML = text;
   }
